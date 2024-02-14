@@ -77,7 +77,7 @@ function manageImgLoader(img, type) {
   const loaderDiv = imgContainerChildren[1] || createLoader();
 
   if (type === "add") {
-    imgContainer.append(loaderDiv); // add loader after img, this will be imgContainerChildren[1] when we want to delete them.
+    imgContainer.append(loaderDiv); // add loader after img, this div will be at position imgContainerChildren[1] at the moment it gets removed (type="remove").
   } else {
     // Loader div already exists from imgContainer.children, so it can be removed.
     loaderDiv.remove();
