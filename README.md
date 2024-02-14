@@ -8,4 +8,6 @@ Custom solution for lazy loading images in javascript (Without frameworks);
   <li>The image should have 'data-lazy="true"' if you want it to have lazy loading functionality</li>
 </ul>
 
+<b>This code implements functionality to display a loader over an image if the user has a slow internet connection (after 0.3s, if the image hasn't loaded). </br> You can customize the loader to your preference and also edit a variable value to determine when the user's internet is slow</b>
+
 <h2>That's it! Enjoy the excellent performance of your website!</h2>
