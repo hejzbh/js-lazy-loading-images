@@ -4,8 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lazy Loading Images</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body>
+    <!-- Image container -->
+    <main class="images-container">
+      <div class="img-container">
+        <img
+          data-lazy="true"
+          src="./assets/images/img-1-compressed.webp"
+          data-original-src="./assets/images/img-1-original.webp"
+        />
+      </div>
+      <div class="img-container">
+        <img
+          data-lazy="true"
+          src="./assets/images/img-2-compressed.webp"
+          data-original-src="./assets/images/img-2-original.webp"
+        />
+      </div>
+      <div class="img-container">
+        <img
+          data-lazy="true"
+          src="./assets/images/img-3-compressed.webp"
+          data-original-src="./assets/images/img-3-original.webp"
+        />
+      </div>
+    </main>
+    <!-- Script's -->
     <script src="./script.js"></script>
   </body>
 </html>
