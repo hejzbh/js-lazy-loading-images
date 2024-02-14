@@ -70,7 +70,7 @@ lazyImages.forEach((lazyImg) => lazyImagesObserver.observe(lazyImg));
 function manageImgLoader(img, type) {
   if (!img) return;
 
-  const imgContainer = img.parentElement;
+  const imgContainer = img.parentElement; //  <div class="img-container">
 
   const imgContainerChildren = Array.from(imgContainer.children);
 
